@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #1455d9;
+}
+
+.container{
+    height: 500;
+    width: 100%;
+    background-color: #faf8f8;
+}
