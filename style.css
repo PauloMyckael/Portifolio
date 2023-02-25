@@ -10,37 +10,63 @@
 }
 
 .header{
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: #1455d9;
     font-family: 'Titillium Web', sans-serif;
 }
 
-/**
-.container{
-    height: 70px;
+.header > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 23px;
+}
+.tabout{
+    text-align: center;
+}
+.about{
     width: 100%;
-    background-color: #1455d9;
+    background-color: #ffffff;
 }
 
-
-
+.tskills{
+    text-align: center;
+}
 .skills{
-    height: 70px;
     width: 100%;
-    background-color: #1455d9;
+    background-color: #ffffff;
+}
+
+.tprojects{
+    text-align: center;
 }
 
 .projects{
-    height: 70px;
+    height: 120px;
     width: 100%;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.comingsoon{
     background-color: #1455d9;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tcontact{
+    text-align: center;
 }
 
 .contact{
-    height: 70px;
+    height: auto;
     width: 100%;
     background-color: #1455d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-**/
+.contact > img{
+    width: 150px;
+}
