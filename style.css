@@ -1,4 +1,4 @@
-/** API's **/
+/** fontes **/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
@@ -16,36 +16,31 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-.header > a{
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    margin-right: auto;
-}
-
+/**
 .container{
-    display: flex;
-    height: 450px;
-    width: 60%;
-    background-color: #faf8f8;
-    font-family: 'Noto Sans', sans-serif;
-}
-
-.container > img{
-    width: 300px;
-    height: 300px;
-}
-
-.contact{
+    height: 70px;
     width: 100%;
-    height: 300px;
     background-color: #1455d9;
-    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.skills{
+    height: 70px;
+    width: 100%;
+    background-color: #1455d9;
 }
 
 .projects{
+    height: 70px;
     width: 100%;
-    height: 300px;
     background-color: #1455d9;
-    font-family: 'Noto Sans', sans-serif;
 }
+
+.contact{
+    height: 70px;
+    width: 100%;
+    background-color: #1455d9;
+}
+
+**/
