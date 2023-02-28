@@ -1,3 +1,28 @@
 /** fontes **/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    display: flex;
+    height: 80px;
+    background-color: #1826bc;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: space-between;
+}
+
+.logo > img{
+    padding-left: 40px;
+    width: 75px;
+}
+
+ul > a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
