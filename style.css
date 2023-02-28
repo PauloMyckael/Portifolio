@@ -7,26 +7,47 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
-.header{
+header{
     display: flex;
-    height: 80px;
+    height: 70px;
+    width: 100%;
     background-color: #1826bc;
     font-family: 'Titillium Web', sans-serif;
-    justify-content: space-between;
+    border-bottom: 2px solid rgb(41, 41, 41);
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logo > img{
-    padding-left: 40px;
-    width: 75px;
+    width: 65px;
 }
 
-ul > a{
-    text-decoration: none;
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
     list-style: none;
+    
+}
+ul > a{
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 20px;
     color: #ffffff;
-    justify-content: space-evenly;
 }
 
-.aboutme{
+.container{
+    display: flex;
+    align-content: center;
+    padding: 25px;
+}
+
+.imgskills{
+    display: flex;
+}
+
+.imgcontact{
     display: flex;
 }
