@@ -8,4 +8,9 @@
         padding: 0;
         font-family: 'Noto Sans', sans-serif;
     }
+
+    .imgskills{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
 }
