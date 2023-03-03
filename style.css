@@ -20,7 +20,7 @@ header{
 }
 
 .logo > img{
-    width: 65px;
+    width: 69px;
 }
 
 ul{
@@ -38,20 +38,137 @@ ul > a{
     font-size: 20px;
     color: #ffffff;
 }
+/** s **/
+.aboutme{ 
+    padding-top: 17px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.container > h1{
+    text-align: center;
+    padding-bottom: 11px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container > .name{
+    font-size: 31px;
+    color: #005ce6;
+}
 
-.container{
+.container > .devel{
+    font-size: 29px;
+}
+
+.container > img{
     display: flex;
-    align-content: center;
-    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.container > h3{
+    font-size: 21px;
+    margin-left: 139px;
+    margin-right: 139px;
+}
+.skills{
+    display: block;
+    background-color: #005ce6;
+}
+
+.skills > h1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 29px;
 }
 
 .imgskills{
     display: flex;
-}
-.cprojects > h2{
-    font-family: 'Shantell Sans', cursive;
+    justify-content: space-around;
+    padding-bottom: 17px;
 }
 
+.html{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.html > img{
+    width: 175px;
+}
+.css{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.css > img{
+    width: 175px;
+}
+.js{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.js > img{
+    width: 175px;
+}
+.react{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.react > img{
+    width: 175px;
+}
+
+.projects{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cprojects > h2{
+    font-size: 29px;
+    font-family: 'Shantell Sans', cursive;
+    padding-top: 18px;
+}
+
+.contact{
+    background-color: #005ce6;
+}
+
+.contact > h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 29px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
 .imgcontact{
     display: flex;
+    padding-bottom: 17px;
+    justify-content: center;
+    text-align: center;
+}
+
+.github {
+    padding-right: 165px;
+}
+.github > img{
+    width: 100px;
+}
+
+.github > a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.twitter > img{
+    width: 100px;
+}
+
+.twitter > a{
+    color: #ffffff;
+    text-decoration: none;
 }
