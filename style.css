@@ -155,7 +155,7 @@ ul > a{
 .github {
     padding-right: 165px;
 }
-.github > img{
+.github > a > img{
     width: 100px;
 }
 
@@ -164,7 +164,7 @@ ul > a{
     text-decoration: none;
 }
 
-.twitter > img{
+.twitter > a > img{
     width: 100px;
 }
 
@@ -299,13 +299,11 @@ ul > a{
         padding-bottom: 13px;
     }
     .imgcontact{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
         padding-bottom: 19px;
         text-align: center;
     }
 
-    .github > img{
+    .github > a > img{
         width: 100px;
     }
 
@@ -314,7 +312,7 @@ ul > a{
         text-decoration: none;
     }
 
-    .twitter > img{
+    .twitter > a > img{
         width: 100px;
     }
 
