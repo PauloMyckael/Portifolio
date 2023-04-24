@@ -124,6 +124,8 @@ ul > a{
     width: 175px;
 }
 
+    /** Projetos **/
+
 .projects{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -155,8 +157,8 @@ ul > a{
 .github {
     padding-right: 165px;
 }
-.github > img{
-    width: 100px;
+.github a img{
+    width: 200px;
 }
 
 .github > a{
@@ -164,8 +166,8 @@ ul > a{
     text-decoration: none;
 }
 
-.twitter > img{
-    width: 100px;
+.twitter a img{
+    width: 200px;
 }
 
 .twitter > a{
@@ -278,6 +280,8 @@ ul > a{
     .react > img{
         width: 30vw;
     }
+
+    /** Projetos **/
 
     .projects{
         padding-top: 13px;
