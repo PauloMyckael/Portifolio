@@ -219,7 +219,7 @@ ul > a{
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        width: 200px;
+        width: 70vw;
         padding-bottom: 13px;
     }
 
@@ -252,7 +252,7 @@ ul > a{
         font-size: 15px;
     }
     .html > img{
-        width: 120px;
+        width: 30vw;
     }
     .css{
         color: #ffffff;
@@ -260,7 +260,7 @@ ul > a{
         font-size: 15px;
     }
     .css > img{
-        width: 120px;
+        width: 30vw;
     }
     .js{
         color: #ffffff;
@@ -268,7 +268,7 @@ ul > a{
         font-size: 15px;
     }
     .js > img{
-        width: 120px;
+        width: 30vw;
     }
     .react{
         color: #ffffff;
@@ -276,7 +276,7 @@ ul > a{
         font-size: 15px;
     }
     .react > img{
-        width: 120px;
+        width: 30vw;
     }
 
     .projects{
@@ -305,17 +305,23 @@ ul > a{
         text-align: center;
     }
 
-    .github > img{
-        width: 100px;
+    .github{
+        padding: 0;
+    }
+
+    .github a img{
+        width: 30vw;
+        padding-right: 0;
     }
 
     .github > a{
         color: #ffffff;
         text-decoration: none;
+        padding-right: 0;
     }
 
-    .twitter > img{
-        width: 100px;
+    .twitter a img{
+        width: 30vw;
     }
 
     .twitter > a{
