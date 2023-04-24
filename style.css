@@ -281,17 +281,57 @@ ul > a{
         width: 30vw;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /** Projetos **/
 
     .projects{
         padding-top: 13px;
         padding-bottom: 18px;
     }
-    .cprojects > h2{
+    .cprojects > .comingsoon h2{
         font-family: 'Shantell Sans', cursive;
         padding-top: 18px;
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .contact{
         background-color: #005ce6;
     }
