@@ -174,13 +174,10 @@ ul > a{
 .imgcontact{
     display: flex;
     padding-bottom: 17px;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.github {
-    padding-right: 165px;
-}
 .github a img{
     width: 200px;
 }
@@ -199,6 +196,14 @@ ul > a{
     text-decoration: none;
 }
 
+.linkedin a img{
+    width: 200px;
+}
+
+.linkedin > a{
+    color: #ffffff;
+    text-decoration: none;
+}
 
     /**  Celular  **/
 
@@ -257,6 +262,10 @@ ul > a{
         margin-left: 6px;
         margin-right: 6px;
     }
+
+    /** Skills **/
+
+
     .skills{
         display: block;
         background-color: #005ce6;
@@ -318,10 +327,23 @@ ul > a{
 
     /** Projetos **/
 
-    .projects{
+    .projects{       
         padding-top: 13px;
         padding-bottom: 18px;
     }
+
+
+    .cprojects{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .comingsoon{
+        color: #005ce6;
+        font-size: 18px
+    }
+
+    
     
 
 
@@ -330,7 +352,7 @@ ul > a{
 
 
 
-
+    /** Contato **/
 
     .contact{
         background-color: #005ce6;
@@ -344,7 +366,7 @@ ul > a{
     }
     .imgcontact{
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
         padding-bottom: 19px;
         text-align: center;
     }
@@ -354,22 +376,30 @@ ul > a{
     }
 
     .github a img{
-        width: 30vw;
+        width: 25vw;
         padding-right: 0;
     }
 
     .github > a{
         color: #ffffff;
         text-decoration: none;
-        padding-right: 0;
     }
 
     .twitter a img{
-        width: 30vw;
+        width: 25vw;
     }
 
     .twitter > a{
         color: #ffffff;
         text-decoration: none;
     }
+
+    .linkedin > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .linkedin a img{
+        width: 25vw;
+    }
+    
 }
