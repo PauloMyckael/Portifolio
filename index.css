@@ -1,4 +1,5 @@
 /*  Fontes  */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
 
 /* reset */
@@ -15,6 +16,7 @@ body{
 }
 
 /* Header */
+
 header{
   display: flex;
   height: 70px;
@@ -35,4 +37,109 @@ header{
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 3px;
+}
+
+.menu a:hover{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: blue;
+
+}
+
+/* Sobre mim */
+
+.container{
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+}
+.container > h1, img{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+  .container p{
+    font-size: 21px;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+
+/* Works */
+
+.works{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* Skills */
+#skills{
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+.imgskills{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Redes sociais */
+
+#social{
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+.imgsocial{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.github a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.github img{
+  width: 200px;
+}
+.linkedin a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.linkedin img{
+  width: 200px;
+}
+.twitter a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.twitter img{
+  width: 200px;
+}
+.instagram a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.instagram img{
+  width: 200px;
+}
+
+/* Zap */
+
+.contact{
+  padding-top: 40px;
+}
+.zap{
+  display: flex;
+  justify-content: center;
 }
