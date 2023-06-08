@@ -1,157 +1,328 @@
-/*  Fontes  */
-
+/** fontes **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
 
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
 }
-
-body{
-  background-color: #1e1e1e;
-}
-
-/* Header */
-
 header{
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
-  padding-bottom: 15px;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #005ce6;
+    border-bottom: 2px solid rgb(41, 41, 41);
+    align-items: center;
+    justify-content: space-around;
 }
-.logo{
-  margin-left: 17px;
-  display: block;
-}
+
 .logo > img{
-  
-  width: 60px;
-}
-.menu{
-  display: flex;
-  
-}
-.menu > a{
-  
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 18px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 3px;
+    width: 69px;
 }
 
-.menu a:hover{
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 10px;
-  padding-left: 10px;
-  background-color: blue;
-
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    
+}
+ul > a{
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+/** About me **/
+.aboutme{ 
+    padding-top: 17px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.container > h1{
+    text-align: center;
+    padding-bottom: 11px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container > .name{
+    font-size: 31px;
+    color: #005ce6;
 }
 
-/* Sobre mim */
+.container > .devel{
+    font-size: 29px;
+}
 
-.container{
-  display: flex;
-  color: #ffffff;
-  flex-direction: column;
-  align-items: center;
+.container > img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
-.container > h1, img{
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-  .container p{
+
+.container > h3{
     font-size: 21px;
-    padding-right: 3%;
-    padding-left: 3%;
-  }
-
-/* Works */
-
-.works{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
+    margin-left: 139px;
+    margin-right: 139px;
+}
+.skills{
+    display: block;
+    background-color: #005ce6;
 }
 
-.riotLogin > a > img{
-  width: 35vw;
-}
-/* Skills */
-
-#skills{
-  padding-top: 30px;
-  color: #ffffff;
+.skills > h1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 29px;
 }
 
 .imgskills{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 17px;
 }
 
-/* Redes sociais */
-
-#social{
-  padding-top: 30px;
-  color: #ffffff;
+.html{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.html > img{
+    width: 175px;
+}
+.css{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.css > img{
+    width: 175px;
+}
+.js{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.js > img{
+    width: 175px;
+}
+.react{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.react > img{
+    width: 175px;
 }
 
-.imgsocial{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+    /* Projetos */
 
-.github a{
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
+.projects{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
-.github img{
-  width: 200px;
+.cprojects > h2{
+    font-size: 29px;
+    font-family: 'Shantell Sans', cursive;
+    padding-top: 18px;
 }
-.linkedin a{
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-}
-.linkedin img{
-  width: 200px;
-}
-.twitter a{
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-}
-.twitter img{
-  width: 200px;
-}
-.instagram a{
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-}
-.instagram img{
-  width: 200px;
-}
-
-/* Zap */
 
 .contact{
-  padding-top: 40px;
+    background-color: #005ce6;
 }
-.zap{
-  display: flex;
-  justify-content: center;
+
+.contact > h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 29px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.imgcontact{
+    display: flex;
+    padding-bottom: 17px;
+    justify-content: center;
+    text-align: center;
+}
+
+.github {
+    padding-right: 165px;
+}
+.github a img{
+    width: 200px;
+}
+
+.github > a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.twitter a img{
+    width: 200px;
+}
+
+.twitter > a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 630px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    header{
+        display: flex;
+        height: 60px;
+        width: 100%;
+        background-color: #005ce6;
+        border-bottom: 2px solid rgb(41, 41, 41);
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo > img{
+        width: 51px;
+    }
+
+    ul{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        list-style: none;
+        
+    }
+    ul > a{
+        padding-right: 9px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .aboutme{ 
+        padding-top: 13px;
+        padding-bottom: 6px;
+        font-size: 15px;
+    }
+
+    .container > img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vw;
+        padding-bottom: 13px;
+    }
+
+    .container > h3{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .skills{
+        display: block;
+        background-color: #005ce6;
+    }
+
+    .skills > h1{
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 29px;
+    }
+
+    .imgskills{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        padding-bottom: 15px;
+    }
+
+    .html{
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .html > img{
+        width: 30vw;
+    }
+    .css{
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .css > img{
+        width: 30vw;
+    }
+    .js{
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .js > img{
+        width: 30vw;
+    }
+    .react{
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .react > img{
+        width: 30vw;
+    }
+
+    /* Projects - Cell */
+
+    .projects{
+        padding-top: 13px;
+        padding-bottom: 18px;
+    }
+
+    /* Contact - cell */
+    .contact{
+        background-color: #005ce6;
+    }
+    .contact > h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 29px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .imgcontact{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        padding-bottom: 19px;
+        text-align: center;
+    }
+
+    .github{
+        padding: 0;
+    }
+
+    .github a img{
+        width: 30vw;
+        padding-right: 0;
+    }
+
+    .github > a{
+        color: #ffffff;
+        text-decoration: none;
+        padding-right: 0;
+    }
+
+    .twitter a img{
+        width: 30vw;
+    }
+
+    .twitter > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
 }
