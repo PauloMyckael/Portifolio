@@ -157,33 +157,92 @@ ul > a{
     padding-top: 13px;
     padding-bottom: 13px;
 }
-.imgcontact{
-    display: flex;
-    padding-bottom: 17px;
-    justify-content: center;
-    text-align: center;
+
+/*  Social  */
+
+.social{
+    background-color: #005ce6;
 }
 
-.github {
-    padding-right: 165px;
-}
-.github a img{
-    width: 200px;
-}
-
-.github > a{
+.social h1{
     color: #ffffff;
-    text-decoration: none;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+}
+.imgsocial{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .twitter a img{
-    width: 200px;
+    width: 190px;
 }
 
 .twitter > a{
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
 }
+
+.instagram a img{
+    width: 190px;
+}
+
+.instagram > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.github a img{
+    width: 190px;
+}
+
+.github > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+/*  Contact */
+.contact{
+    background-color: #005ce6;
+    padding-bottom: 17px;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.imgcontact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkedIn a img{
+    width: 190px;
+}
+
+.linkedIn > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wzap a img{
+    width: 190px;
+}
+
+.wzap > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 630px) {
     *{
@@ -306,8 +365,10 @@ ul > a{
             width: 100%;
         }
     /*  Redes Sociais - Cell */
+    .social{
+        background-color: #005ce6;
+    }
 
-    
     /* Contact - Cell */
     .contact{
         background-color: #005ce6;
