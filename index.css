@@ -189,7 +189,7 @@ ul > a{
     *{
         margin: 0;
         padding: 0;
-        font-family: 'Noto Sans', sans-serif;
+        
     }
     header{
         display: flex;
@@ -202,7 +202,7 @@ ul > a{
     }
 
     .logo > img{
-        width: 51px;
+        width: 53px;
     }
 
     ul{
@@ -235,7 +235,7 @@ ul > a{
     }
 
     .container > p{
-        font-size: 19px;
+        font-size: 20px;
         margin-left: 6px;
         margin-right: 6px;
     }
@@ -305,8 +305,10 @@ ul > a{
         .riotLogin img{
             width: 100%;
         }
+    /*  Redes Sociais - Cell */
 
-    /* Contact - cell */
+    
+    /* Contact - Cell */
     .contact{
         background-color: #005ce6;
     }
@@ -329,29 +331,29 @@ ul > a{
     }
 
     .github a img{
-        width: 30vw;
+        width: 31vw;
         padding-right: 0;
     }
 
     .github > a{
         color: #ffffff;
         text-decoration: none;
-        padding-right: 0;
+        
     }
 
     .twitter a img{
-        width: 30vw;
+        width: 31vw;
     }
 
     .twitter > a{
         color: #ffffff;
         text-decoration: none;
     }
-    .wzap{
-        width: 30vw;
+    .wzap a img{
+        width: 29vw;
     }
 
-    .wzap{
+    .wzap > a{
         color: #ffffff;
         text-decoration: none;
     }
