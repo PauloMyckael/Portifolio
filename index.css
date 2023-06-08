@@ -135,16 +135,23 @@ ul > a{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.riotLogin{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+.projects h1{
+    font-size: 45px;
+    text-align: center;
 }
+    .riotLogin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 .riotLogin img{
     padding-top: 10px;
     width: 500px;
 }
+
+/*  Contact */
 
 .contact{
     background-color: #005ce6;
@@ -205,7 +212,9 @@ ul > a{
     text-decoration: none;
     text-align: center;
 }
+
 /*  Contact */
+
 .contact{
     background-color: #005ce6;
     padding-bottom: 17px;
@@ -244,7 +253,7 @@ ul > a{
 }
 
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 640px) {
     *{
         margin: 0;
         padding: 0;
@@ -276,7 +285,7 @@ ul > a{
     ul > a{
         padding-right: 9px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 18px;
         color: #ffffff;
     }
     .aboutme{ 
@@ -308,7 +317,7 @@ ul > a{
         padding-bottom: 13px;
         text-align: center;
         color: #ffffff;
-        font-size: 29px;
+        font-size: 40px;
     }
 
     .imgskills{
@@ -356,6 +365,10 @@ ul > a{
         padding-top: 13px;
         padding-bottom: 18px;
     }
+        .projects h1{
+            text-align: center;
+            font-size: 40px;
+        }
         .riotLogin{
             display: flex;
             padding-top: 10px;
@@ -364,22 +377,57 @@ ul > a{
         .riotLogin img{
             width: 100%;
         }
+
     /*  Redes Sociais - Cell */
+
     .social{
         background-color: #005ce6;
     }
+    .social h1{
+        font-size: 40px;
+    }
+    .imgsocial{
+        display: flex;
+    }
+    .twitter a img{
+        width: 31vw;
+    }
+    .twitter > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .instagram a img{
+        width: 31vw;
+    }
+    .instagram > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .github a img{
+        width: 31vw;
+        padding-right: 0;
+    }
+    .github > a{
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
 
     /* Contact - Cell */
+
     .contact{
         background-color: #005ce6;
     }
     .contact > h1{
         text-align: center;
         color: #ffffff;
-        font-size: 29px;
-        padding-top: 13px;
-        padding-bottom: 13px;
+        font-size: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+
     .imgcontact{
         display: grid;
         grid-template-columns: 2fr 2fr;
@@ -387,31 +435,16 @@ ul > a{
         text-align: center;
     }
 
-    .github{
-        padding: 0;
-    }
-
-    .github a img{
-        width: 31vw;
-        padding-right: 0;
-    }
-
-    .github > a{
-        color: #ffffff;
-        text-decoration: none;
-        
-    }
-
-    .twitter a img{
+    .linkedIn a img{
         width: 31vw;
     }
 
-    .twitter > a{
+    .linkedIn > a{
         color: #ffffff;
         text-decoration: none;
     }
     .wzap a img{
-        width: 29vw;
+        width: 31vw;
     }
 
     .wzap > a{
