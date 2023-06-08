@@ -35,7 +35,9 @@ ul > a{
     font-size: 20px;
     color: #ffffff;
 }
-/** About me **/
+
+/* About me */
+
 .aboutme{ 
     padding-top: 17px;
     padding-bottom: 30px;
@@ -44,7 +46,6 @@ ul > a{
 .container > h1{
     text-align: center;
     padding-bottom: 11px;
-    font-family: 'Titillium Web', sans-serif;
 }
 .container > .name{
     font-size: 31px;
@@ -54,7 +55,11 @@ ul > a{
 .container > .devel{
     font-size: 29px;
 }
-
+.container p{
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 20px;
+}
 .container > img{
     display: flex;
     margin-left: auto;
@@ -69,6 +74,9 @@ ul > a{
     margin-left: 139px;
     margin-right: 139px;
 }
+
+/*  Skills  */
+
 .skills{
     display: block;
     background-color: #005ce6;
@@ -79,7 +87,7 @@ ul > a{
     padding-bottom: 13px;
     text-align: center;
     color: #ffffff;
-    font-size: 29px;
+    font-size: 45px;
 }
 
 .imgskills{
@@ -124,13 +132,18 @@ ul > a{
     /* Projetos */
 
 .projects{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.cprojects > h2{
-    font-size: 29px;
-    font-family: 'Shantell Sans', cursive;
-    padding-top: 18px;
+.riotLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.riotLogin img{
+    padding-top: 10px;
+    width: 500px;
 }
 
 .contact{
@@ -221,7 +234,8 @@ ul > a{
         padding-bottom: 13px;
     }
 
-    .container > h3{
+    .container > p{
+        font-size: 19px;
         margin-left: 6px;
         margin-right: 6px;
     }
@@ -283,6 +297,14 @@ ul > a{
         padding-top: 13px;
         padding-bottom: 18px;
     }
+        .riotLogin{
+            display: flex;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .riotLogin img{
+            width: 100%;
+        }
 
     /* Contact - cell */
     .contact{
@@ -322,6 +344,14 @@ ul > a{
     }
 
     .twitter > a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .wzap{
+        width: 30vw;
+    }
+
+    .wzap{
         color: #ffffff;
         text-decoration: none;
     }
