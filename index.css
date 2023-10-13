@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+:root{
+    --pink-light: #FFC0CB;
+    --pink: #FF66B2;
+    --pink-dark: #FF1493;
+    --white: #FFFFFF;
+    --gray-light: #F5F5F5;
+    --gray-dark: #333333;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--pink-dark);
+    color: var(--gray-light);
 }
 
-body{
-    background-color: rgba(246, 7, 150, 0.6);
-    color: #e9e9e9;
-}
